@@ -8,9 +8,9 @@ header{
 
 .banner{
   display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 130px;
-  max-height: 170px;
+  max-height: 200px;
   background-color: black;
   justify-content: center;
   border-bottom: 1px solid #9a8866;

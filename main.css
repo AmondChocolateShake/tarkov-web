@@ -1,4 +1,9 @@
 
+
+body{
+  margin: 0;
+}
+
 .main{
   display: flex;
   width: 100vw;
@@ -13,6 +18,7 @@
 
 .main_content{
   display: flex;
+  justify-content: center;
   width: 100vw;
   height: 1000px;
   background-image: url(/main_content.png);
@@ -26,10 +32,11 @@
 .con_right{
   display: flex;
   width: 400px;
+
 }
 
 .order_container{
-  width: 100vw;
+  width: 575px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
