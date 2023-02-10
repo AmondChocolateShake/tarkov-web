@@ -1,0 +1,13 @@
+
+
+@media screen and (max-width:600px) {
+ .hiden_line{
+  display: none;
+ } 
+}
+
+@media screen and (min-width:600px) {
+  .show_menu{
+    display: none;
+  }
+}

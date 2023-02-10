@@ -5,82 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="top_line.css">
+    
+    <link rel="stylesheet" href="/main.css">
+
+
     <style>
-
-        .top_line{
-            background-color: black;
-            height: 120px;
-            position: fixed;
-            left: 0;
-            right: 0;
+        body{
+            margin: 0px;
         }
-
-        .container{
-            display: inline-block;
-            position: absolute;
-
-        }
-
-
-        .menu_list{
-            display: inline-block;
-            width: 500px;
-
-
-        }
-
-        .menu_list>ul{
-            display: inline-block;
-            text-align: center;
-        }
-
-        .menu_list>ul>li{
-            display: inline-block;
-            color: darkgoldenrod;
-            padding-left: 15px;
-            margin-top: 10px;
-        }
-
-        .logo{
-            display: inline-block;
-
-        }
-
-
-        .service_bar{
-            background-color: darkgoldenrod;
-            width: 100px;
-            height: 24px;
-            border-radius: 3px;
-            text-align: center;
-            
-        }
-
-        .social_section{
-            display: inline-block;
-
-        }
-
-
-        
-
-        
 
     </style>
 </head>
 <body>
-    <header id="banner">
-        <div class="top_line">
-            <!-- main logo image -->
+    <!-- banner -->
+    <header>
+
+        <div class="banner">
             <div class="container">
+
+
+                <!-- logo -->
                 <div class="logo">
-                    <a href="https://www.escapefromtarkov.com/">
+                    <a href="https://www.escapefromtarkov.com/" >
                         <img src="/logo.png" alt="escapefromtarkov">
                     </a>
                 </div>
 
+                <!-- menu tap,it appears when hiden-line is hiden -->
+                <div class="show_menu">
+                    <div class="menu_bar">
+                        <img src="/show_menu.png" alt="show_menu">
+                    </div>
+                </div>
 
-                <div class="container">
+                <!-- hiden-line -->
+                <div class="hiden_line">
+
                     <!-- menu list -->
                     <div class="menu_list">
                         <ul>
@@ -93,57 +56,112 @@
                             <li>SUPPORT</li>
                             <li>WIKI</li>
                         </ul>
+
                     </div>
 
-
-                    <!-- social section -->
-                    <div class="social_section">
-                        <!-- service status -->
-                        <div class="line">
+                    <div class="social">
+                        <!-- service bar -->
+                        <div class="service_bar">
                             <a href="https://status.escapefromtarkov.com/">
-                                <div class="text">
-                                    SERVICES
+                                <!-- text -->
+                                <div class="text">SERVICE</div>
+
+                                <!-- status -->
+                                <div class="status">
+                                    <div class="dot"></div>
                                 </div>
-                                
                             </a>
                         </div>
 
-                        <div>
+
+                        <div class="icon_line">
                             <!-- facebook -->
-                            <div>
-
+                            <div class="icon">
+                                <a href="https://www.facebook.com/escapefromtarkov">
+                                    <img src="/fb.png" alt="facebook">
+                                </a>
                             </div>
-
 
                             <!-- telegram -->
-                            <div>
-
+                            <div class="icon">
+                                <a href="https://t.me/escapefromtarkovEN">
+                                    <img src="/tg.png" alt="telegram">
+                                </a>
                             </div>
-
 
                             <!-- twitter -->
-                            <div>
-
+                            <div class="icon">
+                                <a href="https://twitter.com/bstategames">
+                                    <img src="/tw.png" alt="twitter">
+                                </a>
                             </div>
+
+                            <!-- language -->
+                            <div class="lan_box">
+                                <div>▼ENG</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- sign in,up -->
+                    <div class="login_section">
+                        <div class=" login_box bg_img">
+                            <ul class="l_list">
+                                <li>
+                                    <a href="https://www.escapefromtarkov.com/login">LOGIN</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.escapefromtarkov.com/registration">REGISTRATION</a>
+                                </li>
+                            </ul>
+
                         </div>
 
                     </div>
 
-                    <!-- login,register section -->
-                    <div>
 
+                    <!-- BSG -->
+                    <div class="BSG">
+                        <a href="https://www.battlestategames.com/">
+                            <img src="/bs_logo.png" alt="bstategames">
+                        </a>
                     </div>
 
-                    <!-- BTG -->
-                    <div>
 
-                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </header>  
+
+
+    <!-- main content -->
+    <div class="main">
+        <div class="main_content">
+            <!-- left content -->
+            <div class="con_left"></div>
+
+            <!-- preorder -->
+            <div class="order_container">
+                <div class="preorder">
+                    <a href="https://www.escapefromtarkov.com/preorder-page">
+                        <img src="/preorder.png" alt="preorder">
+                    </a>
                 </div>
 
             </div>
+
+            <!-- right content -->
+            <div class="con_right"></div>
+
         </div>
-    </header>
 
 
+    </div>
+
+    <!-- bottom line -->
+    <footer></footer>
 </body>
 </html>
