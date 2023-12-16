@@ -21,7 +21,7 @@ body{
   justify-content: center;
   width: 100vw;
   height: 1000px;
-  background-image: url(/main_content.png);
+  background-image: url(./main_content.png);
   background-position: center;
 }
 

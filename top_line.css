@@ -160,7 +160,7 @@ header{
 
 .bg_img{
   background-position: center;
-  background-image: url(/form_logo.png);
+  background-image: url(./form_logo.png);
   background-repeat: no-repeat;
 }
 
